@@ -1,0 +1,35 @@
+{
+    "name": "gx-encrypt64-decrypt64",
+    "version": "1.0.0",
+    "description": "A library for encrypting and decrypting data using the Twofish algorithm and Base64 encoding. Based on the Genexus implementation (Encrypt64 and Decrypt64).",
+    "main": "./dist/index.js",
+    "module": "./dist/index.mjs",
+    "types": "./dist/index.d.ts",
+    "scripts": {
+        "build": "tsup",
+        "test": "vitest"
+    },
+    "keywords": [
+        "genexus",
+        "typescript",
+        "encrypt",
+        "decrypt",
+        "base64",
+        "twofish"
+    ],
+    "author": "ssreynoso",
+    "license": "MIT",
+    "publishConfig": {
+        "access": "public"
+    },
+    "dependencies": {
+        "base64-js": "^1.5.1",
+        "twofish": "^1.0.1"
+    },
+    "devDependencies": {
+        "@types/node": "^22.14.0",
+        "tsup": "^8.4.0",
+        "typescript": "^5.8.2",
+        "vitest": "^3.1.1"
+    }
+}
