@@ -1,4 +1,4 @@
-# gx-encrypt64-decrypt64
+# gx-twofish64
 
 Encriptación y desencriptación compatible con GeneXus usando el algoritmo **Twofish** y codificación **Base64**.
 
@@ -7,13 +7,13 @@ Este paquete reproduce la lógica de `Encrypt64` y `Decrypt64` usada en GeneXus,
 ## Instalación
 
 ```bash
-npm install gx-encrypt64-decrypt64
+npm install gx-twofish64
 ```
 
 # Uso
 
 ```ts
-import { encrypt64, decrypt64 } from 'gx-encrypt64-decrypt64'
+import { encrypt64, decrypt64 } from 'gx-twofish64'
 
 const text = 'Hola mundo'
 const hexKey = '21972247ba570855360dbf70c8fa2e0e' // Clave hexadecimal válida (32 chars para 128 bits)
