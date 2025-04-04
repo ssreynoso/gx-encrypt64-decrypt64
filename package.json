@@ -1,6 +1,6 @@
 {
     "name": "gx-twofish64",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "A library for encrypting and decrypting data using the Twofish algorithm and Base64 encoding. Based on the Genexus implementation (Encrypt64 and Decrypt64).",
     "main": "./dist/index.js",
     "module": "./dist/index.mjs",
